@@ -59,4 +59,4 @@ jupyter notebook EFH-training.ipynb
 - The model uses automatic differentiation to compute gradients and Hessians efficiently in PyTorch.
 - For reproducibility, it is recommended to fix random seeds and document the loss weights used.
 
-
+## License
