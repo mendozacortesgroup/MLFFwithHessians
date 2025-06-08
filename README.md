@@ -30,8 +30,8 @@ Ensure the following Python packages are installed:
 
 ## Cloning the Repository
 
-<pre> ```git clone https://github.com/mendozacortesgroup/MLFFwithHessians.git
-cd MLFFwithHessians </pre> ```
+<pre> git clone https://github.com/mendozacortesgroup/MLFFwithHessians.git
+cd MLFFwithHessians </pre>
 
   ## Modifications Required
 
