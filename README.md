@@ -1,5 +1,4 @@
-# MLFFwithHessians
-# Energy-Force-Hessian (EFH) Training for MLIPs
+# MLFFwithHessians: Energy-Force-Hessian (EFH) Training for MLIPs
 
 This repository contains code for training a Machine Learning Interatomic Potential (MLIP) using energy, force, and Hessian matrix data as supervision targets. The model is based on a modified version of ANI and is implemented using PyTorch.
 
