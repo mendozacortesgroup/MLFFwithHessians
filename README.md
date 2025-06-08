@@ -51,8 +51,8 @@ Make sure these files are replaced **before** running the training notebook.
 
 ## Running the notebook
 
-<pre>Open and run the notebook
-jupyter notebook EFH-training.ipynb</pre>pre>
+Open and run the notebook
+<pre>jupyter notebook EFH-training.ipynb</pre>
 
 ## Notes
 - Hessian matrices scale quadratically with system size, so memory and training time considerations are important.
