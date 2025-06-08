@@ -29,10 +29,10 @@ Ensure the following Python packages are installed:
 - `tqdm`
 
 ## Cloning the Repository
-
+'''
 git clone https://github.com/mendozacortesgroup/MLFFwithHessians.git
 cd MLFFwithHessians
-
+'''
 ## Modifications Required
 
 To enable the use of Hessian data in training, you must replace two files in the original ANI codebase or MLIP framework:
