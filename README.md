@@ -28,4 +28,35 @@ Ensure the following Python packages are installed:
 - `numpy`
 - `tqdm`
 
+## Cloning the Repository
+
+git clone https://github.com/mendozacortesgroup/MLFFwithHessians.git
+cd MLFFwithHessians
+
+## Modifications Required
+
+To enable the use of Hessian data in training, you must replace two files in the original ANI codebase or MLIP framework:
+
+### Replace the following:
+
+- `utils.py` → place your modified version that supports Hessian loading and batching
+- `data/__init__.py` → replace with the provided version that correctly loads and structures Hessian matrix elements
+
+These modifications are essential for:
+
+- Reading Hessian labels from your dataset
+- Properly formatting the tensors for automatic differentiation
+
+Make sure these files are replaced **before** running the training notebook.
+
+## Running the notebook
+
+Open and run the notebook
+jupyter notebook EFH-training.ipynb
+
+## Notes
+- Hessian matrices scale quadratically with system size, so memory and training time considerations are important.
+- The model uses automatic differentiation to compute gradients and Hessians efficiently in PyTorch.
+- For reproducibility, it is recommended to fix random seeds and document the loss weights used.
+
 
