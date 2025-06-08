@@ -30,8 +30,8 @@ Ensure the following Python packages are installed:
 
 ## Cloning the Repository
 
-<pre> git clone https://github.com/mendozacortesgroup/MLFFwithHessians.git
-cd MLFFwithHessians </pre>
+<pre>git clone https://github.com/mendozacortesgroup/MLFFwithHessians.git
+cd MLFFwithHessians</pre>
 
   ## Modifications Required
 
@@ -51,12 +51,10 @@ Make sure these files are replaced **before** running the training notebook.
 
 ## Running the notebook
 
-Open and run the notebook
-jupyter notebook EFH-training.ipynb
+<pre>Open and run the notebook
+jupyter notebook EFH-training.ipynb</pre>pre>
 
 ## Notes
 - Hessian matrices scale quadratically with system size, so memory and training time considerations are important.
 - The model uses automatic differentiation to compute gradients and Hessians efficiently in PyTorch.
 - For reproducibility, it is recommended to fix random seeds and document the loss weights used.
-
-## License
